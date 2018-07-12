@@ -1,0 +1,24 @@
+{
+  "name": "heimrichhannot-contao-components/modernizr",
+  "description": "A shim repositoy for modernizr as contao component.",
+  "type": "contao-component",
+  "license": "MIT",
+  "keywords": [
+    "contao",
+    "contao-component",
+    "modernizr",
+    "shim",
+    "javascript"
+  ],
+  "authors": [
+    {
+      "name": "Heimrich & Hannot",
+      "email": "digitales@heimrich-hannot.de",
+      "homepage": "https://www.heimrich-hannot.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "contao-components/installer": "^1.0"
+  }
+}
