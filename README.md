@@ -5,17 +5,16 @@ Please see [modernizr-config.json](dist/modernizr-config.json) for included feat
 
 ## Usage
 
-You can add modernizr as component that can be deactivated in the layout settings or just as javascript. The given paths are for contao 4, if you still use Contao 3, the path changes from `assets/modernizr` to `assets/components/modernizr`.
-
-### As component 
+Add following line to your config.php:
 
 ```php
-$GLOBALS['TL_COMPONENTS']['modernizr']['js'] = ['assets/modernizr/dist/modernizr-custom.js|static'];
-```
-
-### Direct
-```php
+// Contao 4:
+// src/Ressources/contao/config/config.php
 $GLOBALS['TL_JAVASCRIPT']['modernizr'] = 'assets/modernizr/dist/modernizr-custom.js|static';
+
+// Contao 3:
+// config/config.php
+$GLOBALS['TL_JAVASCRIPT']['modernizr'] = 'assets/components/modernizr/dist/modernizr-custom.js|static';
 ```
 
 ## Internal
