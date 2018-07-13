@@ -3,6 +3,12 @@ A shim repositoy for [Modernizr][1] as contao component.
 
 Please see [modernizr-config.json](dist/modernizr-config.json) for included features and options for this modernizr build.
 
+## Install
+
+```
+composer require heimrichhannot-contao-components/modernizr
+```
+
 ## Usage
 
 Add following line to your config.php:
